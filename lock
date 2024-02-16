@@ -113,7 +113,7 @@ local PredictionValue = 0.1259910
         end
         placemarker.Transparency = 0.5
         if Settings.rewrittenmain.DOT then
-        makemarker(placemarker, placemarker, Color3.fromRGB(255, 192, 203), 0.40, 0)
+        makemarker(placemarker, placemarker, Color3.fromRGB(173, 216, 230), 0.40, 0)
         end
     end)
 
@@ -124,7 +124,7 @@ local PredictionValue = 0.1259910
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-						Title = "esex? karl#6666",
+						Title = "PROPAGANDA",
 						Text = "Unlocked",
 						Icon = "",
 						Duration = 2,
@@ -136,7 +136,7 @@ local PredictionValue = 0.1259910
                 if Settings.rewrittenmain.NOTIF == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-						Title = "esex? karl#6666",
+						Title = "PROPAGANDA",
 						Text = "Locked On :"..tostring(Plr.Name); 
 						Icon = "",
 						Duration = 2,
@@ -310,7 +310,7 @@ local PredictionValue = 0.1259910
 
 getgenv().Prediction = 0.143105125985120958176	
 getgenv().AimPart = "HumanoidRootPart"	
-getgenv().Key = "Q"	
+getgenv().Key = "C"	
 getgenv().DisableKey = "P"	
 	
 getgenv().FOV = true	
@@ -354,7 +354,7 @@ local fov = Drawing.new("Circle")
 fov.Filled = false	
 fov.Transparency = 1	
 fov.Thickness = 1	
-fov.Color = Color3.fromRGB(255, 255, 0)	
+fov.Color = Color3.fromRGB(173, 216, 230)	
 fov.NumSides = 1000	
 	
 --// Functions	
